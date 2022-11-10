@@ -1,341 +1,55 @@
-body {
-  background-color: #f5f7fa;
-  padding: 40px;
-  font-family: 'Montserrat', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
 
-.container {
-  display: flex;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  background-color: #fff;
-  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-}
-.container1 {
-  display: flex;
-  justify-content: center;
-  width: 2000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-}
-.container2 {
-  display: flex;
-  width: 1400px;
-  height: 1400px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: #fff;
-  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-}
+	    <meta charset="utf-8">
+		<meta name="description" content="Discord">
+		<meta name="keywords" content="Discord">
+		<meta name="author" content="Mateusz Dziegański">
+		<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="./css/animate.css">
 
-.bio,
-.projects,
-.jobs,
-.education {
-  margin-bottom: 60px;
-}
-#zegar
-{
- text-align: center;
- font-size:35px;
-}
-/* ========= right-side ========= */
-.right-side {
-  width: 790px;
-  padding-left: 80px;
-  padding-right: 200px;
-  padding-top: 68px;
-  padding-bottom: 68px;
-}
 
-.bio-title {
-  font-size: 45px;
-  line-height: 2;
-  margin-bottom: 20px;
-}
-
-.bio-occupation {
-  margin-bottom: 27px;
-}
-
-.bio-title,
-.bio-occupation {
-  color: #2a2a2a;
-}
-
-.bio-occupation,
-.bio-about {
-  font-size: 14px;
-  line-height: 1.714;
-}
-
-.bio-about {
-  color: #595959;
-}
-
-.projects-title {
-  margin-bottom: 14px;
-  color: #2a2a2a;
-  font-size: 22px;
-  line-height: 24px;
-}
-
-.projects-link {
-  color: #220fdc;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.projects-link:hover {
-  color: #ff6b08;
-}
-
-.jobs-title,
-.education-title {
-  color: #2a2a2a;
-  font-size: 22px;
-  line-height: 1.091;
-}
-
-.jobs-occupation,
-.education-degree {
-  color: #2a2a2a;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.jobs-time,
-.education-time {
-  color: #828282;
-  font-size: 12px;
-  line-height: 2;
-}
-
-.experience-item {
-  color: #595959;
-  font-size: 14px;
-  line-height: 1.714;
-}
-
-.accent {
-  color: #ff6b08;
-}
-
-/* ========= left-side ========= */
-
-.left-side {
-  width: 440px;
-  background-color: #1e2939;
-  color: #fff;
-}
-
-.skills-title {
-  font-size: 22px;
-  line-height: 1.091;
-}
-
-.skills-item {
-  font-size: 14px;
-  line-height: 1.714;
-}
-
-.skills-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skills-item::before {
-  content: "\2022";
-  margin-right: 8px;
-  color: #ff6b08;
-  font-size: 18px;
-}
-
-.photo {
-  width: 160px;
-}
-
-.photo,
-.contacts,
-.skills,
-.widget {
-  margin-bottom: 60px;
-}
-
-.contacts,
-.skills,
-.widget {
-  padding-left: 40px;
-}
-
-.contacts-title,
-.skills-title {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-}
-
-.contacts-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.contacts-item {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #fff;
-}
-
-.contacts-link {
-  opacity: 0.6;
-  color: #fff;
-  text-decoration: none;
-}
-
-.contacts-link:hover {
-  opacity: 1;
-  text-decoration: underline;
-}
-
-.widget-link {
-  color: #fff;
-  background-color: #ff6b08;
-  padding-top: 20px;
-  padding-right: 43px;
-  padding-bottom: 20px;
-  padding-left: 43px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
-  box-shadow: 0px 0px 13px 1px rgba(255,107,8,0.4);
-}
-
-.widget-link:hover {
-  box-shadow: 0px 6px 32px 1px rgba(255,107,8,0.92);
-}
-
-.widget:hover {
-  animation: shake 1s;
-}
-
-.photo:hover {
-  animation: pulse 1s;
-}
-/* Stopka */
-
-footer {
-  display: block;
-  background-color: #fff;
-  box-shadow: 0 0 10px #c3c3c3;
-  justify-content: center;
-  padding: 0px;
-  margin: 50px 0 0 0;
-  width: 100%;
-  min-height: 100px;
-}
-/* czek */
-
-a{
-	color:red;
-	text-decoration:none;
-}
-a:hover{
-	color:blue;
-}
-/*#container
-{
- width: 99%;
- margin-left:auto;
- margin-right: auto;
- height:500px;
-}
-
-#logo
-{
- background-color: orange;
- color: black;
- text-align: center;
- padding: 12px;
- margin-left:auto;
- margin-right: auto;
-}
-*/
-
-#content
-{
- float: left;
- padding:5%;
- width: 70%;
-}
-
-.menu:hover{
-	width:50%;
-	background-color:#000;
-	color:#fff;
-}
-/*  dla wszystki z .container */
-	/* General */
+		<title>Discord</title>
 		
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #c3c3c3;
-    margin: 9;
-    padding: 9;
-}
-
-.container-txt1{
-    margin: 22px 22px;
-    padding: auto;
-    max-width: 100%;
-    background-color: rgb(53, 240, 178);
-    justify-content: center;
-  }
-
-  /* navigation */
-
-.navbar {
-    background-color: #fffdd0;
-    padding: 5px 0;
-    box-shadow: 0 0 10px #fffdd9;
-    width: auto;
-    margin-left: 0%;
-}
-
-.navbar-wrapper {
-    display: flex;
-    justify-content: space-between;
-    animation: pulse 1s;
-}
-
-ul.nav {
-    margin: 0;
-    list-style-type: none;
-    animation: pulse 1s;
-    animation: shake 1s;
-}
-
-.nav-item {
-    display: inline-block;
-    animation: pulse 1s;
-    animation: shake 1s;
-}
-
-.nav-link {
-    padding: 10px 10px;
-    line-height: 54px;
-    justify-content: space-between;
-}
-
-.nav-time {
-    padding: 0;
-    line-height: 20px;
-    justify-content: end;
-}
+		<script src="js/timer.js"></script>
+		
+	</head>
+	
+	<body onload="odliczanie();">
+		<nav class="navbar">
+			<div class="navbar-wrapper container">	
+				<div class="navbar-item navbar-logo">
+					<h1>Discord</h1>	
+				</div>
+				<div class="navbar-item navbar-nav">
+					<ul class="nav">
+					  <li class="nav-item"><a class="nav-link" href="index.html"><img
+						src="./images/domek.png" width="30px" /></a></li>
+					  <li class="nav-item"><a class="nav-link" href="IT NEWS.html">IT NEWS</a></li>
+					  <li class="nav-item"><a class="nav-link" href="informatyka.html">informatyka</a></li>
+					  <li class="nav-item"><a class="nav-link" href="Twitter.html">Twitter</a></li>
+					  <li class="nav-item"><a class="nav-link" href="Discord.html">Discord</a></li>
+					  <li class="nav-item"><a class="nav-link" href="YouTube.html"><img src="images/yt.png" width="30px" /></a></li>
+					  <li class="nav-item"><a class="nav-link" href="Wsparcie.html">$</a></li>
+					</ul>
+				  </div>
+				<div class="navbar-time navbar-nav">
+					<ul class="nav">
+						<li class="nav-item"><div id="zegar"></div></h2></div></li>
+					</ul>
+				</div>				
+			</div>
+		</nav>
+		<div class="container">
+			👉Nasz Discord: https://discord.gg/wB6wPUfRVr
+			beter discord download
+		</div>
+			
+		<footer>
+			 &copy; 2022 366M | updated 01:00 11.11.2022r.
+		  </foter>
+	</body>
+</html>

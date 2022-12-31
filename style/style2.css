@@ -1,0 +1,171 @@
+body{
+	background-color: #303030;
+	color: #fff;
+}
+
+/* =====================home +++++++++++*/
+#container
+{
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.rectangle
+{
+	width: 1000px;
+	margin: 20px;
+	text-align: center;
+}
+.donate
+{
+	width: 1000px;
+	font-size: 66px;
+	color: gold;
+	text-align: center;
+}
+.donate2
+{
+	width: 1000px;
+	font-size: 22px;
+	color: gold;
+	text-align: center;
+}
+.square
+{
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+
+
+#logo
+{
+	float: left;
+	font-size: 55px;
+	width: 600px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+#zegar
+{
+	float: left;
+	font-size: 35px;
+	margin-top: 46px;
+	margin-bottom: 46px;
+	text-align: center;
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.tile2
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.tile3
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.tile4
+{
+	margin: 10px;
+	width: 480px;
+	height: 142px;
+	background-color: #3095d3;
+	
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 480px;
+	height: 304px;
+	background-color: #666;
+	
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+
+.discord
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+
+.twitter
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.twitch
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #b803ff;
+	float: left;
+}
+
+/* Links */
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: #008000;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  
+  
+  a:hover, a:active {
+	background-color: #000;
+  }

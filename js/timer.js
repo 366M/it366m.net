@@ -17,7 +17,7 @@ function odliczanie()
 		
 		document.getElementById("zegar").innerHTML = 
 		 dzien+"."+miesiac+"."+rok+" "+godzina+":"+minuta+":"+sekunda;
-		+godzina+":"+minuta+":"+sekunda"  "dzien+"."+miesiac+"."+rok+;
+		+godzina+":"+minuta+":"+sekunda"  dzien+"."+miesiac+"."+rok+;
 		 
 		 setTimeout("odliczanie()",1000);
 	}

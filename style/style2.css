@@ -191,7 +191,7 @@ body{
 .square
 {
 	width: 520px;
-	height: 500px;
+	height: 600px;
 	float: left;
 }
 
@@ -218,45 +218,49 @@ body{
 .tile1
 {
 	margin: 10px;
-	width: 235px;
-	height: 142px;
-	background-color: #3095d3;
+	width: 200px;
+	height: 150px;
+	background-color: #FFEFD9;
 	float: left;
+	border-radius: 10%;
 }
 
 .tile2
 {
 	margin: 10px;
-	width: 235px;
-	height: 142px;
-	background-color: #3095d3;
+	width: 200px;
+	height: 150px;
+	background-color: #FFEFD9;
 	float: left;
+	border-radius: 10%;
 }
 
 .tile3
 {
 	margin: 10px;
-	width: 235px;
-	height: 142px;
-	background-color: #3095d3;
+	width: 200px;
+	height: 150px;
+	background-color: #FFEFD9;
 	float: left;
+	border-radius: 10%;
 }
 
 .tile4
 {
 	margin: 10px;
-	width: 490px;
-	height: 142px;
-	background-color: #3095d3;
-	
+	width: 260px;
+	height: 180px;
+	background-color: #FFEFD9;
+	border-radius: 10%;
 }
 
 .tile5
 {
 	margin: 10px;
 	width: 500px;
-	height: 304px;
-	background-color: #666;
+	height: 300px;
+	background-color: #FFEFD9;
+	border-radius: 10%;
 }
 .title6{
 	margin: 10px;
@@ -266,42 +270,67 @@ body{
 	font-size: 22px;
 	padding-top: 12px;
 	background-color: #D5EDA8;
+	border-radius: 10%;
 }
 
 .yt
 {
-	margin: 10px;
-	width: 110px;
-	height: 142px;
+	margin: 4px;
+	width: 120px;
+	height: 110px;
+	text-align: center;
 	background-color: #d94348;
 	float: left;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 20%;
+	font-size: 15px;
 }
 
 .discord
 {
-	margin: 10px;
+	margin: 4px;
 	width: 110px;
-	height: 142px;
-	background-color: #d94348;
-	float: left;	
+	height: 110px;
+	text-align: center;
+	background-color: #7289da;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 70%;
+	font-size: 15px;	
 }
 
 .twitter
 {
-	margin: 10px;
+	margin: 4px;
 	width: 110px;
-	height: 142px;
+	height: 110px;
+	text-align: center;
 	background-color: #3095d3;
 	float: left;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 70%;
+	font-size: 15px;	
 }
 
 .twitch
 {
-	margin: 10px;
+	margin: 4px;
 	width: 110px;
-	height: 142px;
+	height: 110px;
+	text-align: center;
 	background-color: #b803ff;
 	float: left;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 70%;
+	font-size: 15px;	
 }
 
 /* Links */

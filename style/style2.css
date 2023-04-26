@@ -1,18 +1,18 @@
 body{
+	width: 2560px;
 	padding: 0px;
 	margin: 0px;
 	background-color: #FFE5B4;
-	color: #FEA600;
 }
 .container{
 	width: 1920px;
-	height: 1080px;
+	height: 1440px;
 	position: relative;
 	padding: 0px;
 	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: auto;
+	margin-bottom: 30px;
 	border: 0px;
 
 }
@@ -23,20 +23,20 @@ body{
 }
 /*                 Menu                      */
 .logo{
-	width: 45px;
-	height: 45px;
+	width: 200px;
+	height: 200px;
 	padding-right: 0;
-	margin-left: 100px;
-	margin-top: 70px;
+	margin: 65px;
 	justify-content: center;
 	align-items: center;
 	border: 0;
 	color: #fff;
 	float: left;
-	position: relative;
+	position: static;
 }
 .menu{
-	width: 100%;
+	width: 2560px;
+	height: 4%;
 	margin: 1rem 1rem 1rem 1rem;
 	position: fixed;
 	top: 0;
@@ -92,10 +92,10 @@ body{
 /*      outskirts         */
 .left{
 	width: 330px;
-	height: 1020px;
+	height: 1380px;
 	padding: 0px;
 	margin-top: 60px;
-	margin-left: 60px;
+	margin-left: 10px;
 	border: 0px;
 	float: left;
 	border-radius: 50px;
@@ -104,7 +104,7 @@ body{
 }
 .right{
 	width: 330px;
-	height: 1020px;
+	height: 1380px;
 	padding: 0px;
 	margin-top: 60px;
 	border: 0px;
@@ -117,7 +117,7 @@ body{
 #middle 
 {
 	width: 1040px;
-	height: 960px;
+	height: 1440px;
 	padding: 0px;
 	margin-left: 80px;
 	margin-right: 80px;
@@ -134,15 +134,27 @@ body{
 	float: left;
 	color: #fff;
 }
+.menu366M{
+	width: 1000px;
+	margin: 10px;
+	text-align: center;
+	text-size-adjust: 22px;
+	color: #000;
+	position: static;
+	bottom: 0;
+}
 .rectangle
 {
 	width: 1920px;
-	margin: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
 	text-align: center;
-	float: left;
 	text-size-adjust: 18px;
 	color: #000;
-	position: static;
+	position: absolute;
+	bottom: 0;
 }
 .donate
 {
@@ -220,7 +232,7 @@ body{
 	margin: 10px;
 	width: 200px;
 	height: 150px;
-	background-color: #FFEFD9;
+	background-color: rgb(190, 150, 115);
 	float: left;
 	border-radius: 10%;
 }
@@ -230,7 +242,7 @@ body{
 	margin: 10px;
 	width: 200px;
 	height: 150px;
-	background-color: #FFEFD9;
+	background-color: rgb(190, 150, 115);
 	float: left;
 	border-radius: 10%;
 }
@@ -240,7 +252,7 @@ body{
 	margin: 10px;
 	width: 200px;
 	height: 150px;
-	background-color: #FFEFD9;
+	background-color: rgb(190, 150, 115);
 	float: left;
 	border-radius: 10%;
 }
@@ -250,7 +262,7 @@ body{
 	margin: 10px;
 	width: 260px;
 	height: 180px;
-	background-color: #FFEFD9;
+	background-color: rgb(190, 150, 115);
 	border-radius: 10%;
 }
 
@@ -259,7 +271,7 @@ body{
 	margin: 10px;
 	width: 500px;
 	height: 300px;
-	background-color: #FFEFD9;
+	background-color: rgb(190, 150, 115);
 	border-radius: 10%;
 }
 .title6{
@@ -279,11 +291,10 @@ body{
 	width: 120px;
 	height: 110px;
 	text-align: center;
-	background-color: #d94348;
 	float: left;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: static;
 	border-radius: 20%;
 	font-size: 15px;
 }
@@ -294,11 +305,10 @@ body{
 	width: 110px;
 	height: 110px;
 	text-align: center;
-	background-color: #7289da;
 	float: left;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: static;
 	border-radius: 70%;
 	font-size: 15px;	
 }
@@ -309,11 +319,10 @@ body{
 	width: 110px;
 	height: 110px;
 	text-align: center;
-	background-color: #3095d3;
 	float: left;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: static;
 	border-radius: 70%;
 	font-size: 15px;	
 }
@@ -324,15 +333,36 @@ body{
 	width: 110px;
 	height: 110px;
 	text-align: center;
-	background-color: #b803ff;
 	float: left;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	position: static;
 	border-radius: 70%;
 	font-size: 15px;	
 }
-
+/*       NEWS na home page     */
+.youtubevideo{
+	margin: 10px;
+	width: 1000px;
+	height: 600px;
+	float: left;
+}
+.youtubevideotxt{
+	margin-left: 22px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 60px;
+	border-radius: 80%;
+	font-size: 40px;
+	font-weight: 700px;
+	color: #fff;
+	position: top;
+	background-color: rgb(190, 150, 115);
+	border-color: #000;
+	border-radius: 4px;
+}
 /* Links */
 a:link {
 	color: #fff;

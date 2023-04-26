@@ -1,0 +1,11 @@
+ErrorDocument 400   366M/Error/400.html
+ErrorDocument 401   366M/Error/401.html
+ErrorDocument 402   366M/Error/402.html
+ErrorDocument 403   366M/Error/403.html
+ErrorDocument 404   366M/Error/403.html
+
+ErrorDocument 500   366M/Error/500.html
+ErrorDocument 501   366M/Error/501.html
+ErrorDocument 502   366M/Error/502.html
+ErrorDocument 503   366M/Error/503.html
+ErrorDocument 504   366M/Error/504.html

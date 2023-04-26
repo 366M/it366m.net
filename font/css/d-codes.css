@@ -1,0 +1,13 @@
+
+.icon-folder:before { content: '\e800'; } /* '' */
+.icon-wrench:before { content: '\e801'; } /* '' */
+.icon-folder-open:before { content: '\e802'; } /* '' */
+.icon-globe:before { content: '\e803'; } /* '' */
+.icon-globe-inv:before { content: '\f019'; } /* '' */
+.icon-tasks:before { content: '\f0ae'; } /* '' */
+.icon-folder-empty:before { content: '\f114'; } /* '' */
+.icon-folder-open-empty:before { content: '\f115'; } /* '' */
+.icon-windows:before { content: '\f17a'; } /* '' */
+.icon-server:before { content: '\f233'; } /* '' */
+.icon-television:before { content: '\f26c'; } /* '' */
+.icon-map-signs:before { content: '\f277'; } /* '' */

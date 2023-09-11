@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Mateusz Dziegański">
-	<meta name="keywords" content="Mateusz Dziegański, it, informatyka, świat, 0101, news, 366M, 366__m, 366m, it366m.net, itnews, blog, życie, AI, IT">
-	<meta name="author" content="Mateusz Dziegański">
+	<meta name="keywords" content="">
+	<meta "">
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-    <title>IT 366M net</title>
+    <title></title>
     <link rel="stylesheet" href="./style/style2.css">
     <link rel="stylesheet" href="./css/fontello.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -91,8 +91,8 @@
 						<div class="logo"><a href="https://it366m.net/"><img src="./img/LOGO.png" alt="LOGO"></a></div> 
 						<div class="boxtext"> it366m.net <br>
 						Tu planuje przekazywać ciekawostki <br>
-						Newsy i wiele różnych rzeczy <br>
-						o których będzie więcej jak powstaną :D</div>
+						... <br>
+						...</div>
 					</div>
 					
 					<div id="middle">
@@ -131,7 +131,7 @@
 										<div style="clear:both;"></div>
 											
 										<div class="tile2">
-								<a href="https://it366m.net/twitter">
+								<a href="">
 											<center>
 											<i class="icon-tasks"></i>
 											</center>
@@ -139,7 +139,7 @@
 										</div>
 
 										<div class="tile3">
-								<a href="https://it366m.net/366M/IT/itnews">
+								<a href="">
 											<center>
 											<i class="icon-globe"></i>
 											</center>
@@ -148,7 +148,7 @@
 										<div style="clear:both;"></div>
 
 										<div class="tile4">
-								<a href="https://it366m.net/hi">
+								<a href="">
 											<center>
 											<i class="icon-mail-alt"></i>
 											</center>
@@ -159,7 +159,7 @@
 							<div class="square">
 
 										<div class="tile5" >
-								<a href="https://it366m.net/world">
+								<a href="">
 											<center>
 											<i class="icon-map-signs"></i>
 											</center>
@@ -169,7 +169,7 @@
 								
 								
 								<h title="Mój YouTube"></h>
-								<a href="https://www.youtube.com/c/366Mlike" target="_blank">
+								<a href="" target="_blank">
 								<div class="yt">
 									<img src="./img/yt.png" width="120px" heigh="110px" alt="YouTube">
 								</h1><p title="Jestem podpowiedzią"></p>
@@ -177,7 +177,7 @@
 								</a>
 								
 								<h title="Nasz Discord"></h>
-								<a href="https://discord.gg/GDKK9WcVFQ" target="_blank">
+								<a href="" target"_blank">
 								<div class="discord">
 									<img src="./img/dc.png" width="120px" heigh="110px" alt="Discord">
 								</h1><p title="Jestem podpowiedzią"></p>
@@ -185,7 +185,7 @@
 								</a>
 								
 								<h title="Mój Twitter"></h>
-								<a href="https://twitter.com/366MateuszDZ" target="_blank">
+								<a href="" target="_blank">
 								<div class="twitter">
 									<img src="./img/tt.png" width="120px" heigh="110px" alt="Twitter">
 								</h1><p title="Jestem podpowiedzią"></p>

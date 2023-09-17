@@ -1,0 +1,200 @@
+body {
+  background-color: lightblue;
+}
+
+.container{
+	position: static;
+	background-color: #FFFDD0;
+  width: 990px;
+  height: 1040px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.left{
+	float: left;
+	position: relative;
+	background-color: rgb(190, 150, 115);
+  width: 160px;
+  height: 720px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.menu{
+	float: left;
+	position: relative;
+  width: 990px;
+  height: 160px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.logo{
+	float: left;
+	border-radius: 50%;
+	position: relative;
+	z-index: 0;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: 0;
+  margin: 10px;
+}
+.tytuł{
+	float: left;
+	position: relative;
+  width: 660px;
+  height: 150px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.tytuł1{
+	float: left;
+	position: relative;
+	z-index: 3;
+  width: 660px;
+  height: 150px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.logowanie{
+	text-align: center;
+	float: left;
+	position: relative;
+	background-color: white;
+  width: 100px;
+  height: 70px;
+  padding: 0;
+  border: 0;
+  margin: 10px;
+}
+.box{
+	float: left;
+	position: relative;
+	background-color: #FFFDD0;
+  width: 670px;
+  height: 720px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.article{
+	float: left;
+	position: relative;
+	background-color: green;
+  width: 300px;
+  height: 600px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.article2{
+	float: left;
+	position: relative;
+	background-color: blue;
+  width: 290px;
+  height: 290px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.article3{
+	float: left;
+	position: relative;
+	background-color: gray;
+  width: 290px;
+  height: 290px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.right{
+	float: left;
+	position: relative;
+	background-color: rgb(190, 150, 115);
+  width: 160px;
+  height: 720px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.rectangle
+{
+	width: 990px;
+	high:160px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-size-adjust: 18px;
+	color: #000;
+	position: absolute;
+	bottom: 0;
+}
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+.poziome-menu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.poziome-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.poziome-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.poziome-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.poziome-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.poziome-menu a:hover {
+    color: #ff9900;
+}
+.poziome-menu {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu-box {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.menu-box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-box:hover {
+    background-color: #222;
+}

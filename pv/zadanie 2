@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl-PL" , lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Mateusz Dziegański">
+	<meta name="keywords" content="Mateusz Dziegański, it, informatyka, świat, 0101, news, 366M, 366__m, 366m, it366m.net, itnews, blog, życie, AI, IT">
+	<meta name="author" content="Mateusz Dziegański">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <title>szkoła</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="./img/LOGO.png">
+
+              <script src="js/timer.js"></script>
+
+  </head>
+  <body>
+			<div class="container">
+					<nav class="menu">
+					<div class="logo">
+					<a href="index.html"><img src="./LOGO.png" alt="LOGO"></a>
+					</div>
+					<div class="tytuł">
+					<a href="#"><img src="./miniatura.png" alt="miniatura"></a>
+					<div class="tytuł1">
+					<h1>Tytuł</h1>
+					</div>
+					</div>
+					<div class="logowanie">
+					<a href="#">logowanie</a>
+					</div>
+					</nav>
+					<div class="left">
+					<ul>strona
+					<li><a href="index.html">1</a></li>
+					<li><a href="index.html">2</a></li>
+					<li><a href="index.html">3</a></li>
+					<li><a href="index.html">4</a></li>
+					
+					</ul>
+					<ul>strona
+					<li><a href="index.html">11</a></li>
+					<li><a href="index.html">12</a></li>
+					<li><a href="index.html">13</a></li>
+					<li><a href="index.html">14</a></li>
+					</ul>
+					</div>
+					<div class="box">
+					<div class="article">
+					ALA ma kota
+					ALA ma kota
+					ALA ma kota
+					</div>
+					<div class="article2">
+					ALA ma kota
+					ALA ma kota
+					ALA ma kota
+					</div>
+					<div class="article3">
+					ALA ma kota
+					ALA ma kota
+					ALA ma kota
+					</div>
+					</div>
+					<div class="right">
+					<ul>
+									   <nav class="poziome-menu">
+						<ul>
+							<li><a href="#">Strona główna</a></li>
+							<li><a href="#">O nas</a></li>
+							<li><a href="#">Usługi</a></li>
+							<li><a href="#">Kontakt</a></li>
+						</ul>
+					</nav>
+					</ul>
+									<nav class="poziome-menu">
+						<div class="menu-box"><a href="#">Strona główna</a></div>
+						<div class="menu-box"><a href="#">O nas</a></div>
+						<div class="menu-box"><a href="#">Usługi</a></div>
+						<div class="menu-box"><a href="#">Kontakt</a></div>
+					</nav>
+					
+					</div>
+					<div class="rectangle">1234 </div>
+			</div>
+	</body>	
+</html>

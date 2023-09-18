@@ -27,3 +27,7 @@ body {
 .menu-box:hover {
     background-color: #222;
 }
+
+.gpt{
+    float: left;
+}
